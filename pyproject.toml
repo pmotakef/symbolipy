@@ -1,3 +1,25 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbolipy"
+version = "0.1.0"
+dependencies = []
+requires-python = ">= 3.8"
+authors = [{name = "Pouya Motakef", email = "p.motakef@gmail.com "}]
+maintainers = [{name = "Pouya Motakef", email = "p.motakef@gmail.com "}]
+description = "Present mathematical equality and inequality in symbol format."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["symbol"]
+
+[project.urls]
+Homepage = "https://github.com/pmotakef/symbolipy"
+Documentation = "https://github.com/pmotakef/symbolipy"
+Repository = "https://github.com/pmotakef/symbolipy"
+Issues = "https://github.com/pmotakef/symbolipy/issues"
+Changelog = "https://github.com/pmotakef/symbolipy/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = ["pytest"]
