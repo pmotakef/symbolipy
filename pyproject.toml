@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "symbolipy"
-version = "0.1.0"
+version = "1.0.0"
+dynamic = ["version"]
 dependencies = []
 requires-python = ">= 3.8"
 authors = [{name = "Pouya Motakef", email = "p.motakef@gmail.com "}]
