@@ -5,7 +5,6 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "symbolipy"
 version = "1.0.0"
-dynamic = ["version"]
 dependencies = []
 requires-python = ">= 3.8"
 authors = [{name = "Pouya Motakef", email = "p.motakef@gmail.com "}]
@@ -40,4 +39,5 @@ push = false
 [tool.bumpver.file_patterns]
 "pyproject.toml" = [
     'current_version = "{version}"',
+    'version = "{version}"',
 ]
