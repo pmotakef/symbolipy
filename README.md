@@ -6,7 +6,7 @@ The idea behind this package is to prevent default python equality operation on 
 
 ## Version History
 
-0.1.0 
+1.0.0 
 * Initial release
 
 ## Installation
