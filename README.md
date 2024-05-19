@@ -4,6 +4,11 @@ Symbolipy is a lightweight package to present mathematical equations, equality, 
 This package does not contain algebraic operations, but can be used with packages that support symbols.     
 The idea behind this package is to prevent default python equality operation on `Operation` object. Unlike other Symbol packages, `==` will yield to equality equation.
 
+## Version History
+
+0.1.0 
+* Initial release
+
 ## Installation
 
 The latest Symoblipy release is hosted on PyPI. The package can be installed using `pip` command
